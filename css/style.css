@@ -1,0 +1,110 @@
+html {
+    background-color: rgb(248, 248, 248);
+font-style: normal;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+text-align: right;
+background-color: #c4e3ff;
+    padding: 4px 200px 2px 0px;
+    
+}
+
+nav li{
+    display: inline;
+    
+    margin: 5px 5px 5px 5px ;
+    padding: 5px 5px 5px 5px;
+    
+    color: ;
+}
+
+ h1{
+    font-size: 48px;
+    text-align: Left;
+    padding: 2px 2px 2px 45px;
+    background-color: bisque;
+ }
+ #Acceuil div img {
+    float: left;
+    margin: 2px 5px 2px 5px;
+    border-radius: 10px;
+     }
+
+#Acceuil #youtube{
+        float: right;
+        margin: 2px 5px 2px 10px;
+        border-radius: 10px;
+}
+ #Acceuil {
+    
+    background-color: #7aafdbef;
+    padding: 5px 15px 10px 5px;
+    margin: 2px 5px 2px 5px; 
+ }
+ #Acceuil p {
+    text-align:justify;
+ }
+ #Gallerie {
+    background-color: #c4e3ff;
+    padding: 5px 20px 80px 5px;
+ }
+  .images{
+    display: inline-block;
+    width:23%;
+    padding: 5px;
+ }
+
+ #Services li::first-letter {
+    color: rgb(231, 185, 130);
+     font-size: 24px;
+      font-weight: bold;
+      }
+      #Services dd::first-letter {
+        color: rgb(175, 113, 37);
+         font-size: 24px;
+          font-weight: bold;
+          }
+
+ #Blog {
+ 
+text-align: justify;
+ }
+ #Blog p::first-letter{
+    color: rgb(175, 113, 37);
+    font-size: 24px;
+     font-weight: bold;
+     }
+
+ 
+#Contact form {
+    background-color: bisque;
+    display: block;
+   text-align:center ; 
+   margin: 20px 2px 20px 2px;
+   float: ;
+ }
+ #Contact .seeyou{
+    text-align: center;
+}
+#Contact button { 
+    margin: 20px;
+padding: 4px 6px 4px 6px;
+border-radius: 15px;
+font-weight: bolder;
+border: 5px inset rgb(209, 155, 88);
+}
+ footer {
+    
+    background-color:aliceblue ;
+    text-align:center;
+
+}
+footer button {
+    margin: 20px;
+    padding: 4px 6px 4px 6px;
+    border-radius: 15px;
+    font-weight: bolder;
+    border: 5px outset aliceblue;
+}

@@ -7,34 +7,38 @@
     <title>Mon projet HTML - Portfolio Web </title>
     
     <link rel="icon"  href="favicon.ico"  type="image/x-icon"/>
-    
+    <link href="css/style.css" rel="stylesheet" />
     </head>
 <header> 
- <nav>
- <!---->
-  <a href="#Acceuil">Acceuil</a>|
-  <a href="#Gallerie">Gallerie</a>|
-  <a href="#Services">Services</a>|
-  <a href="#Blog">Blog</a>|
-  <a href="#Contact">Contact</a>|
-  </nav>
+
+ <nav >
+  <ul>
+  <li> <a href="#Acceuil">Acceuil</a> </li>
+  <li> <a href="#Gallerie">Gallerie</a> </li>
+  <li> <a href="#Services">Services</a> </li>
+  <li> <a href="#Blog">Blog</a></li>
+  <li> <a href="#Contact">Contact</a></li>
+  </ul>
+ </nav>
+
+
 </header> 
 
 <main>
 <!---->
-  <section title="Acceuil">
-<a name="Acceuil"></a>
- <h1>Acceuil</h1>
+  <section id="Acceuil">
 
- <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDNkMnh1NXE0b2NycXNnN3dheWZlbG4waDlnaWJ0bDVtYml4eDV0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ggtpYV17RP9lTbc542/giphy.webp" width="60%" alt="Exemple 1">
- <iframe frameborder="0" scrolling="no" src="https://freesound.org/embed/sound/iframe/582263/simple/small/" width="375" height="30" autoplay></iframe>
- <p>Lorem ipsum odor amet, consectetuer adipiscing elit.
+ <h1>Acceuil</h1>
+<div>
+ <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDNkMnh1NXE0b2NycXNnN3dheWZlbG4waDlnaWJ0bDVtYml4eDV0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ggtpYV17RP9lTbc542/giphy.webp" width="10%" alt="Exemple 1">
+</div>
+ <iframe id="music" frameborder="0" scrolling="no" src="https://freesound.org/embed/sound/iframe/582263/simple/small/" width="375" height="30" autoplay></iframe>
+ <p class="texte">Lorem ipsum odor amet, consectetuer adipiscing elit.
    Pharetra maximus varius fames pellentesque risus lacus. 
    Proin eu cubilia in facilisis curabitur volutpat purus adipiscing finibus.
     Sed maximus himenaeos tempor magna adipiscing potenti. 
     Volutpat conubia viverra auctor sagittis montes proin.
      Pharetra porta tristique himenaeos viverra ullamcorper taciti ipsum risus.
-<br>
   Dapibus urna dis dictumst nunc semper integer.
    Integer nisl tortor montes facilisis mus habitasse.
     Cras blandit praesent dolor diam interdum nec nostra facilisi donec.
@@ -42,27 +46,55 @@
       Duis iaculis gravida scelerisque nam facilisis.
        Fusce metus feugiat class sed nostra bibendum.
         Sed magna erat litora quisque habitasse eleifend tempor sem.
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/goQVDUIpym8?si=RPU1QRK5-j0pR9fw&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe id="youtube" width="580" height="250" src="https://www.youtube.com/embed/goQVDUIpym8?si=RPU1QRK5-j0pR9fw&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </p>
+      <p class="texte">Lorem ipsum odor amet, consectetuer adipiscing elit.
+        Pharetra maximus varius fames pellentesque risus lacus. 
+        Proin eu cubilia in facilisis curabitur volutpat purus adipiscing finibus.
+         Sed maximus himenaeos tempor magna adipiscing potenti. 
+         Volutpat conubia viverra auctor sagittis montes proin.
+          Pharetra porta tristique himenaeos viverra ullamcorper taciti ipsum risus.
+       Dapibus urna dis dictumst nunc semper integer.
+        Integer nisl tortor montes facilisis mus habitasse.
+         Cras blandit praesent dolor diam interdum nec nostra facilisi donec.
+          Penatibus viverra himenaeos tellus id ante sollicitudin?
+           Duis iaculis gravida scelerisque nam facilisis.
+            Fusce metus feugiat class sed nostra bibendum.
+             Sed magna erat litora quisque habitasse eleifend tempor sem.
+           </p>
+           <p class="texte">Lorem ipsum odor amet, consectetuer adipiscing elit.
+            Pharetra maximus varius fames pellentesque risus lacus. 
+            Proin eu cubilia in facilisis curabitur volutpat purus adipiscing finibus.
+             Sed maximus himenaeos tempor magna adipiscing potenti. 
+             Volutpat conubia viverra auctor sagittis montes proin.
+              Pharetra porta tristique himenaeos viverra ullamcorper taciti ipsum risus.
+           Dapibus urna dis dictumst nunc semper integer.
+            Integer nisl tortor montes facilisis mus habitasse.
+             Cras blandit praesent dolor diam interdum nec nostra facilisi donec.
+              Penatibus viverra himenaeos tellus id ante sollicitudin?
+               Duis iaculis gravida scelerisque nam facilisis.
+                Fusce metus feugiat class sed nostra bibendum.
+                 Sed magna erat litora quisque habitasse eleifend tempor sem.
+               </p>
+                   </p>
   </section>
 
-<section  title="Gallerie">
+<section  id="Gallerie">
 
-<a name="Gallerie"></a>
    <h1>Gallerie</h1>
 <!-- Utilisation de liens url pour les images et redimension des images en utilisant des pourcantes pour garder le ratio-->
-<img src="https://img.freepik.com/free-vector/travel-sale-landing-page-with-photo_23-2148619696.jpg" width="80%" alt="Exemple 1">
-<img src="https://t4.ftcdn.net/jpg/02/15/63/13/360_F_215631337_StlDy858Qifq9gODmbdjhIyNtYZcQl1j.jpg"  width="80%"alt="Exemple 2">
-<img src="https://mir-s3-cdn-cf.behance.net/projects/404/43907c183359569.Y3JvcCwxMzQyLDEwNTAsMjksMA.jpg"  width="80%" alt="Exemple 3">
-<img src="https://s.tmimgcdn.com/scr/400x250/172600/plantly-plants-and-nursery-html5-ecommerce-website-template_172659-original.jpg"  width="80%" alt="Exemple 4">
-
+ <div class="test"><div class="images"> <img src="https://img.freepik.com/free-vector/travel-sale-landing-page-with-photo_23-2148619696.jpg" width="100%"  alt="Exemple 1"></div>
+<div class="images"> <img src="https://t4.ftcdn.net/jpg/02/15/63/13/360_F_215631337_StlDy858Qifq9gODmbdjhIyNtYZcQl1j.jpg"  width="100%"alt="Exemple 2"></div>
+<div class="images"> <img src="https://mir-s3-cdn-cf.behance.net/projects/404/43907c183359569.Y3JvcCwxMzQyLDEwNTAsMjksMA.jpg"  width="100%" alt="Exemple 3"></div>
+<div class="images"> <img src="https://s.tmimgcdn.com/scr/400x250/172600/plantly-plants-and-nursery-html5-ecommerce-website-template_172659-original.jpg"  width="100%" alt="Exemple 4"></div>
+</div>
 </section>
 
-<section  title="Services">
-  <a name="Services"></a>
+<section  id="Services">
+
   <h1>Services</h1>
 
-<ol type="i">
+<ol type="I">
   <li><dt><h3>Conception de sites web:</h3></dt></li>
   <dd>Création de sites web personnalisés, adaptés aux besoins spécifiques de chaque client.</dd>
 <li><dt><h3>Développement web:</h3></dt></li>
@@ -74,19 +106,27 @@
 <li><dt><h3>Maintenance de sites web:</h3></dt></li>
 <dd>Services de maintenance pour assurer le bon fonctionnement et la sécurité des sites web.</dd>
 </ol>
-
 </section>
 
-<a name="Blog"></a>
-<section title="Blog">
+<section id="Blog">
+
+
 <h1>Blog</h1>
-<article> Les meilleures pratiques internet en 2024 </article>
-<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Egestas sit consectetur sollicitudin semper in condimentum ipsum. Magnis etiam efficitur proin adipiscing montes ornare. Elit taciti efficitur faucibus nibh inceptos hendrerit dui diam. Abibendum egestas commodo fusce dolor platea lobortis ex. Mi potenti imperdiet tempus sodales id maecenas inceptos morbi volutpat. Quam mauris per inceptos dui ultrices fermentum erat. Luctus duis parturient fames integer et arcu pharetra. Nostra penatibus nisi odio purus varius ornare, nisi posuere. Dis integer nam quisque venenatis suspendisse.
+<h2>  Nostra penatibus nisi odio purus varius ornare, nisi posuere </h2>
+<p class="texte">Lorem ipsum odor amet, consectetuer adipiscing elit. Egestas sit consectetur sollicitudin semper in condimentum ipsum. Magnis etiam efficitur proin adipiscing montes ornare. Elit taciti efficitur faucibus nibh inceptos hendrerit dui diam. Abibendum egestas commodo fusce dolor platea lobortis ex. Mi potenti imperdiet tempus sodales id maecenas inceptos morbi volutpat. Quam mauris per inceptos dui ultrices fermentum erat. Luctus duis parturient fames integer et arcu pharetra. Nostra penatibus nisi odio purus varius ornare, nisi posuere. Dis integer nam quisque venenatis suspendisse.
 
   Fames magnis urna ligula, pellentesque viverra lorem. Massa penatibus ac duis fringilla leo curae. Egestas maecenas bibendum mollis tristique phasellus auctor. Cubilia primis potenti molestie bibendum lobortis sem tortor lacus. Lacinia arcu aptent nam est himenaeos. Ligula iaculis nostra rutrum consectetur vestibulum nostra sem. Sapien et placerat commodo luctus; convallis proin efficitur. Odio a mollis platea augue duis.</p>
+  <p class="texte">Lorem ipsum odor amet, consectetuer adipiscing elit. Egestas sit consectetur sollicitudin semper in condimentum ipsum. Magnis etiam efficitur proin adipiscing montes ornare. Elit taciti efficitur faucibus nibh inceptos hendrerit dui diam. Abibendum egestas commodo fusce dolor platea lobortis ex. Mi potenti imperdiet tempus sodales id maecenas inceptos morbi volutpat. Quam mauris per inceptos dui ultrices fermentum erat. Luctus duis parturient fames integer et arcu pharetra. Nostra penatibus nisi odio purus varius ornare, nisi posuere. Dis integer nam quisque venenatis suspendisse.
+
+    Fames magnis urna ligula, pellentesque viverra lorem. Massa penatibus ac duis fringilla leo curae. Egestas maecenas bibendum mollis tristique phasellus auctor. Cubilia primis potenti molestie bibendum lobortis sem tortor lacus. Lacinia arcu aptent nam est himenaeos. Ligula iaculis nostra rutrum consectetur vestibulum nostra sem. Sapien et placerat commodo luctus; convallis proin efficitur. Odio a mollis platea augue duis.</p>
+    <p class="texte">Lorem ipsum odor amet, consectetuer adipiscing elit. Egestas sit consectetur sollicitudin semper in condimentum ipsum. Magnis etiam efficitur proin adipiscing montes ornare. Elit taciti efficitur faucibus nibh inceptos hendrerit dui diam. Abibendum egestas commodo fusce dolor platea lobortis ex. Mi potenti imperdiet tempus sodales id maecenas inceptos morbi volutpat. Quam mauris per inceptos dui ultrices fermentum erat. Luctus duis parturient fames integer et arcu pharetra. Nostra penatibus nisi odio purus varius ornare, nisi posuere. Dis integer nam quisque venenatis suspendisse.
+
+      Fames magnis urna ligula, pellentesque viverra lorem. Massa penatibus ac duis fringilla leo curae. Egestas maecenas bibendum mollis tristique phasellus auctor. Cubilia primis potenti molestie bibendum lobortis sem tortor lacus. Lacinia arcu aptent nam est himenaeos. Ligula iaculis nostra rutrum consectetur vestibulum nostra sem. Sapien et placerat commodo luctus; convallis proin efficitur. Odio a mollis platea augue duis.</p>
 </section>
 
-<a name="Contact"></a>
+
+<section id="Contact">
+
 <h1>Contact</h1>
 <form>
 <label>Nom</label>
@@ -111,11 +151,15 @@
 <br>
 <button type="submit">Soumettre</button>
 </form>
-<img src="https://media.tenor.com/mTDKH-ocdH4AAAAi/%E3%81%BE%E3%81%9F%E3%81%AD-%E3%81%BE%E3%81%9F%E4%BC%9A%E3%81%8A%E3%81%86.gif">
-<br>
+<div class="seeyou">
+<img   src="https://media.tenor.com/mTDKH-ocdH4AAAAi/%E3%81%BE%E3%81%9F%E3%81%AD-%E3%81%BE%E3%81%9F%E4%BC%9A%E3%81%8A%E3%81%86.gif" width="10%">
+</div>
+</section>
+
 <footer>
   Mon projet HTML - Portfolio Web Novembre 2024- ©MALICK
   <br>
-<a href="#Acceuil"> Retour vers le haut </a>
+
+<button><a href="#Acceuil"> Retour vers le haut </a></button>
 </footer>
 </html>
